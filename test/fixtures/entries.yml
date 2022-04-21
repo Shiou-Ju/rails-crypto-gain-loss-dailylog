@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  coin_type: MyString
+  purchase_price: 1
+  selling_price: 1
+
+two:
+  coin_type: MyString
+  purchase_price: 1
+  selling_price: 1
