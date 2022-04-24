@@ -4,6 +4,10 @@
   Gains & Lost Calculator 
 <%end%>
 
+<div class="column is-centered mt-6">
+  <%= link_to "View all entries", archives_index_path, class:'button is-link is-outlined is-centereds' %>
+</div>
+
 <div class="column mt-6 is-centered">
   <div id="entries">
         <% @entries.each do |entry| %>
