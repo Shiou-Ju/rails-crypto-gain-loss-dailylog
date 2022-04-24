@@ -1,7 +1,25 @@
 <div class="columns iscentered mt-6">
   <div class="column is-half">
-    <% @entries.each do |entry| %>
-      <%= entry.coin_type%>
+    <% @entries.each do |day, entry| %>
+      <h3 class="is-size-4 has-text-weight-bold mb-4 has-text-centered">
+        Entries for <%= day %>
+      </h3>
+
+      <div class="level is-mobile">
+        <div class="title">
+          <%# sum for all docs in the db of a certain field %>
+          <%= entry.pluck(:selling_price).sum%>
+          <%= entry.pluck(:purchase_price).sum%>
+        </div>
+      </div>
+
+        <% @entries.each do |entry| %>
+          <div class="card">
+            <div class="card-content">
+              <%= entry %>
+            </div>
+          </div>
+      <% end %>
     <% end %>
   </div>
 </div>
