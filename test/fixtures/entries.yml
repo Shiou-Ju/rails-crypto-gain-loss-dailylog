@@ -1,11 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  coin_type: MyString
-  purchase_price: 1
-  selling_price: 1
+bitcoin:
+  coin_type: bitcoin
+  purchase_price: 1000
+  selling_price: 1200
 
-two:
-  coin_type: MyString
-  purchase_price: 1
-  selling_price: 1
+dogdogcoin:
+  coin_type: dogdogcoin
+  purchase_price: 900
+  selling_price: 800

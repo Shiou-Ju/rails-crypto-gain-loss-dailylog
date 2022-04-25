@@ -2,7 +2,7 @@ require "test_helper"
 
 class EntriesControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @entry = entries(:one)
+    @entry = entries(:bitcoin)
   end
 
   test "should get index" do
