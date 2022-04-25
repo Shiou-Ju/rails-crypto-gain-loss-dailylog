@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Purpose: 
+This project is a try-out of Ruby and Rails.
 
-Things you may want to cover:
+### Conception
+Build a backend framework to record day to day all  cryptocurrencies transactions for calculating gains and losses.
 
-* Ruby version
+### Requirements for hosting locally
+- Ruby version
+  - ruby 3.1.1p18 (2022-02-18 revision 53f5fc4236) [arm64-darwin20]
+  - Rails 7.0.2.3
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Execute following commands after `$git clone`
+  1. `$bundler install`
+  2. `$rails server`
